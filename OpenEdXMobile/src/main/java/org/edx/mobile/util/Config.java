@@ -115,7 +115,8 @@ public class Config {
 
         public enum DiscoveryType {
             WEBVIEW,
-            NATIVE
+            NATIVE,
+            NONE
         }
 
         public CourseDiscoveryConfig getCourseDiscoveryConfig() {
