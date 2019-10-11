@@ -184,6 +184,7 @@ public class Config {
 
         @Nullable
         private DiscoveryConfig.DiscoveryType getDiscoveryType() {
+            System.out.println("typeConfig: " + typeConfig);
             if (null == typeConfig) {
                 return null;
             }
