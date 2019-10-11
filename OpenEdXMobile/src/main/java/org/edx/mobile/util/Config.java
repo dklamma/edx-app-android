@@ -140,7 +140,7 @@ public class Config {
 
         @Nullable
         private DiscoveryConfig.DiscoveryType getDiscoveryType() {
-            System.out.println("typeConfig: " + typeConfig);
+            log.d("TYPE", typeConfig);
             if (null == typeConfig) {
                 return null;
             }
