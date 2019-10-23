@@ -147,9 +147,6 @@ public class Config {
         }
 
         public boolean isDiscoveryEnabled() {
-            if (null == getDiscoveryType()) {
-                return null;
-            }
             return getDiscoveryType() != null;
         }
 
